@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Mineto Tsukada`,
+    title: `otenim.github.io`,
     siteUrl: `https://otenim.github.io`,
   },
   plugins: [],
