@@ -1,6 +1,6 @@
-import React from 'react'
+import * as React from 'react'
 import { Link } from 'gatsby'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 
@@ -27,8 +27,8 @@ const IntroSection = () => {
       <Row className="justify-content-md-center">
         <Col md="auto">
           <p>
-            <a href="https://github.com/otenim">GitHub</a>,
-            <a href="https://scholar.google.com/citations?user=59yO56AAAAAJ&hl=ja">Google Scholar</a>
+            <Link to="https://github.com/otenim">GitHub</Link>,
+            <Link to="https://scholar.google.com/citations?user=59yO56AAAAAJ&hl=ja">Google Scholar</Link>
           </p>
         </Col>
       </Row>
@@ -44,6 +44,6 @@ const IndexPage = () => {
   )
 }
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>Home</title>
 
 export default IndexPage
