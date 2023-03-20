@@ -1,4 +1,4 @@
-import * as React from "react"
+import React from "react"
 import { Link } from 'gatsby'
 import { Container, Navbar, Nav } from 'react-bootstrap'
 
@@ -13,7 +13,7 @@ const Header = () => {
           <Navbar.Collapse id="navbarResponsive">
             <Nav as="ul" className="ml-auto">
               <Nav.Item as="li">
-                <Link to="/" className="nav-link" activeClassName="active">Home</Link>
+                <Link to="/" className="nav-link" activeClassName="active">Publifications</Link>
               </Nav.Item>
             </Nav>
           </Navbar.Collapse>
@@ -22,5 +22,6 @@ const Header = () => {
     </header>
   )
 }
+
 
 export default Header
