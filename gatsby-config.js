@@ -6,5 +6,5 @@ module.exports = {
     title: `otenim.github.io`,
     siteUrl: `https://otenim.github.io`,
   },
-  plugins: [],
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp"],
 }
