@@ -8,13 +8,13 @@ const Header = () => {
     <header className="bg-dark">
       <Container>
         <Navbar expand="md" variant="dark">
-          <Navbar.Brand href="/">Mineto Tsukada</Navbar.Brand>
+          <Navbar.Brand href="/">Otenim's Personal Web Page</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarResponsive" />
           <Navbar.Collapse id="navbarResponsive">
             <Nav as="ul" className="ml-auto">
-              <Nav.Item as="li">
+              {/* <Nav.Item as="li">
                 <Link to="/pubs" className="nav-link" activeClassName="active">Publifications</Link>
-              </Nav.Item>
+              </Nav.Item> */}
             </Nav>
           </Navbar.Collapse>
         </Navbar>

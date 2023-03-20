@@ -8,5 +8,9 @@ module.exports = {
     author: '@otenim',
     siteUrl: `https://otenim.github.io`,
   },
-  plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp"],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sass"],
 }
