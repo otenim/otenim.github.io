@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { pageStyles } from '../components/master'
 import { Header } from '../components/header'
+import { MetaData } from '../components/meta'
 import { Link } from 'gatsby'
 import { Container, Row, Col } from 'react-bootstrap'
 import { StaticImage } from 'gatsby-plugin-image'
@@ -234,15 +235,15 @@ const EducationSection = () => {
 
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
-      <Header/>
-      <Container>
-        <IntroSection/>
-        <JobSection/>
-        <EducationSection/>
-        <PublicationSection/>
-      </Container>
-    </main>
+    <div>
+      <Header />
+      <main style={pageStyles}>
+          <IntroSection />
+          <JobSection />
+          <EducationSection />
+          <PublicationSection />
+      </main>
+    </div>
   )
 }
 
