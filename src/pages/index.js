@@ -54,19 +54,19 @@ const PublicationSection = () => {
           </li>
           <li>
             Hirohisa Watanabe, <u>Mineto Tsukada</u> and Hiroki Matsutani,
-            ``An FPGA-Based On-Device Reinforcement Learning Approach using Online Sequential Learning'',
+            "An FPGA-Based On-Device Reinforcement Learning Approach using Online Sequential Learning",
             Proc. of the 35th IEEE International Parallel and Distributed Processing Symposium (IPDPS'21) Workshops,
             The 28th Reconfigurable Architectures Workshop (RAW'21), pp.96-103, May. 2021.
           </li>
           <li>
             Tokio Kibata, <u>Mineto Tsukada</u> and Hiroki Matsutani,
-            ``An Edge Attribute-wise Partitioning and Distributed Processing of R-GCN using GPUs'',
+            "An Edge Attribute-wise Partitioning and Distributed Processing of R-GCN using GPUs",
             Proc. of the 26th International European Conference on Parallel and Distributed Computing (Euro-Par'20) Workshops,
             The 18th International Workshop on Algorithms, Models and Tools for Parallel Computing on Heterogeneous Platforms (HeteroPar'20), pp.122-134, Aug. 2020.
           </li>
           <li>
             Rei Ito, <u>Mineto Tsukada</u>, Masaaki Kondo and Hiroki Matsutani,
-            ``An Adaptive Abnormal Behavior Detection using Online Sequential Learning'',
+            "An Adaptive Abnormal Behavior Detection using Online Sequential Learning",
             Proc. of the 17th International Conference on Embedded and Ubiquitous Computing (EUC'19), pp.436-440, Aug. 2019.
           </li>
           <li>
@@ -114,27 +114,27 @@ const PublicationSection = () => {
           </li>
           <li>
             <u>Mineto Tsukada</u>, Koya Mitsuzuka, Kohei Nakamura, Yuta Tokusashi and Hiroki Matsutani,
-            ``Accelerating Sequential Learning Algorithm OS-ELM Using FPGA-NIC'',
+            "Accelerating Sequential Learning Algorithm OS-ELM Using FPGA-NIC",
             IEICE Technical Reports CPSY2017-127, Vol.117, No.378, pp.133-138, Jan. 2018. <b>(IEICE CPSY Young Presentation Award)</b>
           </li>
           <li>
             Rei Ito, <u>Mineto Tsukada</u> and Hiroki Matsutani,
-            ``An Efficient Cooperative Model Update using On-Device Learning'',
+            "An Efficient Cooperative Model Update using On-Device Learning",
             IEICE Technical Reports CPSY2019-65, Vol.119, No.372, pp.79-84, Jan. 2020.
           </li>
           <li>
             Hirohisa Watanabe, <u>Mineto Tsukada</u> and Hiroki Matsutani,
-            ``A Light-Weight Reinforcement Learning using Online Sequential Learning'',
+            "A Light-Weight Reinforcement Learning using Online Sequential Learning",
             IEICE Technical Reports CPSY2019-66, Vol.119, No.372, pp.85-90, Jan. 2020.
           </li>
           <li>
             Tomoya Itsubo, <u>Mineto Tsukada</u> and Hiroki Matsutani,
-            ``Area and Performance Evaluations of Online Sequential Learning and Unsupervised Anomaly Detection Core'',
+            "Area and Performance Evaluations of Online Sequential Learning and Unsupervised Anomaly Detection Core",
             IEICE Technical Reports CPSY2018-96, Vol.118, No.431, pp.83-88, Jan. 2019. <b>(IEICE CPSY Young Presentation Award)</b>
           </li>
           <li>
             Rei Ito, <u>Mineto Tsukada</u>, Masaaki Kondo and Hiroki Matsutani,
-            ``A Case for Unsupervised Abnormal Behavior Detection Using Multiple Online Sequential Learning Cores'',
+            "A Case for Unsupervised Abnormal Behavior Detection Using Multiple Online Sequential Learning Cores",
             IEICE Technical Reports CPSY2018-95, Vol.118, No.431, pp.77-82, Jan. 2019.
           </li>
           <li>
