@@ -1,15 +1,13 @@
 import * as React from 'react'
 import Header from './header'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { pageStyles } from '../components/master';
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <main style={pageStyles}>
       <Header/>
-      <main>
-        {children}
-      </main>
-    </div>
+      {children}
+    </main>
   )
 }
 
