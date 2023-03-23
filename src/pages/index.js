@@ -94,7 +94,7 @@ const PublicationSection = () => {
         </ul>
 
         <h3 className={sectionTitleStyle}>Technical Reports</h3>
-        <ul>
+        <ul className={publicationListStyle}>
           <li>
             <u>Mineto Tsukada</u>, Masaaki Kondo and Hiroki Matsutani,
             "Anomaly Detection using On-Device Learning Algorithm on Wireless Sensor Nodes",
