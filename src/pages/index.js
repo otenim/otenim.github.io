@@ -6,7 +6,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Header from '../components/header'
 import MetaData from '../components/meta'
 import {
-  introSectionStyle,
+  profileSectionStyle,
   thumbnailPictureStyle,
   nameStyle,
   sectionTitleStyle,
@@ -33,7 +33,7 @@ const PublicationSection = () => {
           <li>
             <u>Mineto Tsukada</u>, Masaaki Kondo and Hiroki Matsutani,
             "A Neural Network-Based On-device Learning Anomaly Detector for Edge Devices",
-            IEEE Transactions on Computers (TC), Vol.69, No.7, pp.1027-1044, Jul. 2020. <b>(Featured Paper in July 2020 Issue of IEEE TC)</b>
+            IEEE Transactions on Computers (TC), Vol.69, No.7, pp.1027-1044, Jul. 2020. <b>(Spotlight Paper in July 2020 Issue of IEEE TC)</b>
           </li>
           <li>
             <u>Mineto Tsukada</u>, Masaaki Kondo and Hiroki Matsutani,
@@ -151,9 +151,9 @@ const PublicationSection = () => {
   )
 }
 
-const IntroSection = () => {
+const ProfileSection = () => {
   return (
-    <div className={introSectionStyle}>
+    <div className={profileSectionStyle}>
       <Row className="justify-content-md-center">
         <Col md="auto">
           <div className={thumbnailPictureStyle}>
@@ -241,7 +241,7 @@ const IndexPage = () => {
       <Header />
       <main style={pageStyles}>
         <Container>
-          <IntroSection />
+          <ProfileSection />
           <JobSection />
           <EducationSection />
           <PublicationSection />
