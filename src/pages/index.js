@@ -175,7 +175,7 @@ const ProfileSection = () => {
         <Col md="auto">
           <p>
             <Link to="https://github.com/otenim">GitHub</Link>,
-            <Link to="https://scholar.google.com/citations?user=59yO56AAAAAJ&hl=ja">Google Scholar</Link>
+            <Link to="https://scholar.google.com/citations?user=59yO56AAAAAJ&hl=en">Google Scholar</Link>
           </p>
         </Col>
       </Row>
