@@ -3,7 +3,8 @@ import { pageStyles } from '../components/style/master'
 import { Link } from 'gatsby'
 import { Row, Col, Container } from 'react-bootstrap'
 import { StaticImage } from 'gatsby-plugin-image'
-import { Header } from '../components/header'
+import Header from '../components/header'
+import MetaData from '../components/meta'
 import {
   introSectionStyle,
   thumbnailPictureStyle,
@@ -236,6 +237,7 @@ const EducationSection = () => {
 const IndexPage = () => {
   return (
     <div>
+      <MetaData title="Mineto Tsukada" description="Mineto Tsukada's Personal Web Page" />
       <Header />
       <main style={pageStyles}>
         <Container>
