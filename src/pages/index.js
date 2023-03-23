@@ -1,7 +1,7 @@
 import * as React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import { pageStyles } from '../components/style/master'
 import { Link } from 'gatsby'
-import { Row, Col } from 'react-bootstrap'
+import { Row, Col, Container } from 'react-bootstrap'
 import { StaticImage } from 'gatsby-plugin-image'
 import { Header } from '../components/header'
 import {
@@ -13,7 +13,7 @@ import {
   contentListStyle,
   importantNameStyle,
   publicationListStyle
-} from '../components/styles.module.scss'
+} from '../components/style/styles.module.scss'
 
 
 const PublicationSection = () => {
@@ -237,11 +237,13 @@ const IndexPage = () => {
   return (
     <div>
       <Header />
-      <main>
+      <main style={pageStyles}>
+        <Container>
           <IntroSection />
           <JobSection />
           <EducationSection />
           <PublicationSection />
+        </Container>
       </main>
     </div>
   )
