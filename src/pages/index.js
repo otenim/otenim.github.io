@@ -20,7 +20,7 @@ import {
 const PublicationSection = () => {
   return (
     <div>
-      <h2 className={sectionTitleStyle}>PUBLIFICATIONS</h2>
+      <h2 className={sectionTitleStyle}>PUBLICATIONS</h2>
       <div className={sectionContentStyle}>
         <h3 className={sectionTitleStyle}>Journal Papers</h3>
         <ul className={publicationListStyle}>
