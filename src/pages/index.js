@@ -168,7 +168,7 @@ const IntroSection = () => {
       </Row>
       <Row className="justify-content-md-center">
         <Col md="auto">
-          <p>CS Ph.D. new graduate @ Keio University</p>
+          <p>CS Ph.D. candidate @ Keio University</p>
         </Col>
       </Row>
       <Row className="justify-content-md-center">
