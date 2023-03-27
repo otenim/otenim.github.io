@@ -168,7 +168,7 @@ const ProfileSection = () => {
       </Row>
       <Row className="justify-content-md-center">
         <Col md="auto">
-          <p>CS Ph.D. candidate @ Keio University</p>
+          <p>CS Ph.D. candidate @ <Link to="https://www.arc.ics.keio.ac.jp/english">Matsutani edgeAI Lab</Link></p>
         </Col>
       </Row>
       <Row className="justify-content-md-center">
